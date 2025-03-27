@@ -1,5 +1,5 @@
 class CategoriesData {
-  static const Map<String, List<Map<String, String>>> categories = {
+  static Map<String, List<Map<String, String>>> categories = {
     "numbers": [
       {"name": "Null", "sound": "assets/sounds/numbers/0.mp3", "image": ""},
       {"name": "Eins", "sound": "assets/sounds/numbers/1.mp3", "image": ""},
@@ -455,7 +455,253 @@ class CategoriesData {
       {"name": "Ü", "sound": "assets/sounds/alphabet/ue.mp3", "image": ""},
       {"name": "ß", "sound": "assets/sounds/alphabet/ss.mp3", "image": ""},
     ],
-    "animals": [],
+    "animals": [
+      {
+        "name": "der Hund",
+        "sound": "assets/sounds/animals/hund.mp3",
+        "image": "assets/images/animals/hund.jpg",
+      },
+      {
+        "name": "die Katze",
+        "sound": "assets/sounds/animals/katze.mp3",
+        "image": "assets/images/animals/katze.jpg",
+      },
+      {
+        "name": "die Maus",
+        "sound": "assets/sounds/animals/maus.mp3",
+        "image": "assets/images/animals/maus.jpg",
+      },
+      {
+        "name": "der Löwe",
+        "sound": "assets/sounds/animals/lowe.mp3",
+        "image": "assets/images/animals/lowe.jpg",
+      },
+      {
+        "name": "der Tiger",
+        "sound": "assets/sounds/animals/tiger.mp3",
+        "image": "assets/images/animals/tiger.jpg",
+      },
+      {
+        "name": "der Bär",
+        "sound": "assets/sounds/animals/bar.mp3",
+        "image": "assets/images/animals/bar.jpg",
+      },
+      {
+        "name": "der Wolf",
+        "sound": "assets/sounds/animals/wolf.mp3",
+        "image": "assets/images/animals/wolf.jpg",
+      },
+      {
+        "name": "der Fuchs",
+        "sound": "assets/sounds/animals/fuchs.mp3",
+        "image": "assets/images/animals/fuchs.jpg",
+      },
+      {
+        "name": "das Pferd",
+        "sound": "assets/sounds/animals/pferd.mp3",
+        "image": "assets/images/animals/pferd.jpg",
+      },
+      {
+        "name": "der Esel",
+        "sound": "assets/sounds/animals/esel.mp3",
+        "image": "assets/images/animals/esel.jpg",
+      },
+      {
+        "name": "die Kuh",
+        "sound": "assets/sounds/animals/kuh.mp3",
+        "image": "assets/images/animals/kuh.jpg",
+      },
+      {
+        "name": "das Schwein",
+        "sound": "assets/sounds/animals/schwein.mp3",
+        "image": "assets/images/animals/schwein.jpg",
+      },
+      {
+        "name": "das Schaf",
+        "sound": "assets/sounds/animals/schaf.mp3",
+        "image": "assets/images/animals/schafe.jpg",
+      },
+      {
+        "name": "die Ziege",
+        "sound": "assets/sounds/animals/zge.mp3",
+        "image": "assets/images/animals/zge.jpg",
+      },
+      {
+        "name": "das Känguru",
+        "sound": "assets/sounds/animals/kanguru.mp3",
+        "image": "assets/images/animals/kanguru.jpg",
+      },
+      {
+        "name": "der Elefant",
+        "sound": "assets/sounds/animals/elefant.mp3",
+        "image": "assets/images/animals/elefant.jpg",
+      },
+      {
+        "name": "das Nilpferd",
+        "sound": "assets/sounds/animals/nilpferd.mp3",
+        "image": "assets/images/animals/nilpferd.jpg",
+      },
+      {
+        "name": "das Nashorn",
+        "sound": "assets/sounds/animals/nashorn.mp3",
+        "image": "assets/images/animals/nashorn.jpg",
+      },
+      {
+        "name": "der Affe",
+        "sound": "assets/sounds/animals/affe.mp3",
+        "image": "assets/images/animals/affe.jpg",
+      },
+      {
+        "name": "das Eichhörnchen",
+        "sound": "assets/sounds/animals/eichhornchen.mp3",
+        "image": "assets/images/animals/eichhornchen.jpg",
+      },
+      {
+        "name": "der Adler",
+        "sound": "assets/sounds/animals/adler.mp3",
+        "image": "assets/images/animals/adler.jpg",
+      },
+      {
+        "name": "die Taube",
+        "sound": "assets/sounds/animals/taube.mp3",
+        "image": "assets/images/animals/taube.jpg",
+      },
+      {
+        "name": "der Spatz",
+        "sound": "assets/sounds/animals/spatz.mp3",
+        "image": "assets/images/animals/spatz.jpg",
+      },
+      {
+        "name": "der Papagei",
+        "sound": "assets/sounds/animals/papagei.mp3",
+        "image": "assets/images/animals/papagei.jpg",
+      },
+      {
+        "name": "die Eule",
+        "sound": "assets/sounds/animals/eule.mp3",
+        "image": "assets/images/animals/eule.jpg",
+      },
+      {
+        "name": "der Pinguin",
+        "sound": "assets/sounds/animals/pinguin.mp3",
+        "image": "assets/images/animals/pinguin.jpg",
+      },
+      {
+        "name": "der Schwan",
+        "sound": "assets/sounds/animals/schwan.mp3",
+        "image": "assets/images/animals/schwan.jpg",
+      },
+      {
+        "name": "der Storch",
+        "sound": "assets/sounds/animals/storch.mp3",
+        "image": "assets/images/animals/storch.jpg",
+      },
+      {
+        "name": "der Rabe",
+        "sound": "assets/sounds/animals/rabe.mp3",
+        "image": "assets/images/animals/rabe.jpg",
+      },
+      {
+        "name": "die Falke",
+        "sound": "assets/sounds/animals/falke.mp3",
+        "image": "assets/images/animals/falke.jpg",
+      },
+      {
+        "name": "die Schlange",
+        "sound": "assets/sounds/animals/schlange.mp3",
+        "image": "assets/images/animals/schlange.jpg",
+      },
+      {
+        "name": "die Eidechse",
+        "sound": "assets/sounds/animals/eidechse.mp3",
+        "image": "assets/images/animals/eidechse.jpg",
+      },
+      {
+        "name": "die Schildkröte",
+        "sound": "assets/sounds/animals/schildkrote.mp3",
+        "image": "assets/images/animals/schildkrote.jpg",
+      },
+      {
+        "name": "der Frosch",
+        "sound": "assets/sounds/animals/frosch.mp3",
+        "image": "assets/images/animals/frosch.jpg",
+      },
+      {
+        "name": "die Krokodil",
+        "sound": "assets/sounds/animals/krokodil.mp3",
+        "image": "assets/images/animals/krokodil.jpg",
+      },
+      {
+        "name": "der Fisch",
+        "sound": "assets/sounds/animals/fisch.mp3",
+        "image": "assets/images/animals/fisch.jpg",
+      },
+      {
+        "name": "der Hai",
+        "sound": "assets/sounds/animals/hai.mp3",
+        "image": "assets/images/animals/hai.jpg",
+      },
+      {
+        "name": "der Delfin",
+        "sound": "assets/sounds/animals/delfin.mp3",
+        "image": "assets/images/animals/delfin.jpg",
+      },
+      {
+        "name": "der Wal",
+        "sound": "assets/sounds/animals/wal.mp3",
+        "image": "assets/images/animals/wal.jpg",
+      },
+      {
+        "name": "der Qualle",
+        "sound": "assets/sounds/animals/qualle.mp3",
+        "image": "assets/images/animals/qualle.jpg",
+      },
+      {
+        "name": "der Tintenfisch",
+        "sound": "assets/sounds/animals/tintenfisch.mp3",
+        "image": "assets/images/animals/tintenfisch.jpg",
+      },
+      {
+        "name": "die Krabbe",
+        "sound": "assets/sounds/animals/krabbe.mp3",
+        "image": "assets/images/animals/krabbe.jpg",
+      },
+      {
+        "name": "die Muschel",
+        "sound": "assets/sounds/animals/muschel.mp3",
+        "image": "assets/images/animals/muschel.jpg",
+      },
+      {
+        "name": "die Biene",
+        "sound": "assets/sounds/animals/biene.mp3",
+        "image": "assets/images/animals/biene.jpg",
+      },
+      {
+        "name": "der Schmetterling",
+        "sound": "assets/sounds/animals/schmetterling.mp3",
+        "image": "assets/images/animals/schmetterling.jpg",
+      },
+      {
+        "name": "die Ameise",
+        "sound": "assets/sounds/animals/ameise.mp3",
+        "image": "assets/images/animals/ameise.jpg",
+      },
+      {
+        "name": "die Spinne",
+        "sound": "assets/sounds/animals/spinne.mp3",
+        "image": "assets/images/animals/spinne.jpg",
+      },
+      {
+        "name": "die Heuschrecke",
+        "sound": "assets/sounds/animals/heuschrecke.mp3",
+        "image": "assets/images/animals/heuschrecke.jpg",
+      },
+      {
+        "name": "das Stachelschwein",
+        "sound": "assets/sounds/animals/stachelschwein.mp3",
+        "image": "assets/images/animals/stachelschwein.jpg",
+      },
+    ],
 
     "jobs": [],
   };
